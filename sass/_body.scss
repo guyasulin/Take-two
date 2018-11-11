@@ -1,0 +1,83 @@
+$btn-color:#EA5A61;
+body{
+    // padding: 37px;
+    // padding-right: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    background-image: linear-gradient(147deg, #ae38235d, #c96dd79c);
+}
+
+.cont-image{
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    padding: 71px;
+}
+#container{
+    max-width: 100%;
+    padding: 30px;
+    background-image: linear-gradient(147deg, #4207e4a4, #b0c2e980);
+}
+.col{
+    text-align: center;
+}
+.row{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+#container2{
+    margin-top: 30px;
+}
+#container4{
+    max-width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+        display: flex;
+
+}
+.column{
+    display: flex;
+}
+.column-1,.column-2,.column-3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+}
+form{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 283px;
+    padding: 22px;
+}
+.column-4{
+    display: flex;
+    text-align: right;
+    flex-direction: column-reverse;
+    background-color: black;
+    height: 80px;
+}
+.end{
+    float: right;
+}
+
+#btnGoUp {
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    left: 49px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    width: 47px;
+    height: 44px;
+    text-indent: -5555px;
+    background: transparent url(../images/up-arrow.png) no-repeat left top;
+    z-index: 950;
+    text-decoration: none;
+    color: white;
+}

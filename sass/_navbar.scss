@@ -1,0 +1,32 @@
+$btn-color:#EA5A61;
+
+
+#navbar{ 
+    //  padding: 2.5rem 10rem;
+    position: fixed;
+    background-color: white;
+    z-index: 17;
+    width: 100%;
+    }
+
+.btn-dang{
+    padding: 3px;
+    border: 2px solid $btn-color;
+    background-color: $btn-color;
+    color: white;
+}
+.nav-item-link{
+    display: flex;
+    list-style: none;
+    color: #EA5A61;
+}
+.nav-link-item{
+    color: #EA5A61;
+    font-family: cursive;
+    font-size: 20px;
+}
+.nav-link-item:hover{
+    color: black;
+}
+
+
